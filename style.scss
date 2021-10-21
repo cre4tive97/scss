@@ -6,29 +6,50 @@ $small: 8px;
 $medium: 16px;
 $large: 24px;
 
-%box {
+// %box {
+//   font-size: $large;
+//   width: 150px;
+//   height: 150px;
+//   padding: 20px;
+// }
+
+// .box-red {
+//   @extend %box;
+//   background-color: $red;
+// }
+// .box-blue {
+//   @extend %box;
+//   background-color: $blue;
+// }
+
+// .box-orange {
+//   @extend %box;
+//   background-color: $orange;
+// }
+// .box-purple {
+//   @extend %box;
+//   background-color: $purple;
+// }
+
+@mixin box($color) {
   font-size: $large;
   width: 150px;
   height: 150px;
-  padding: 20px;
+  background-color: $color;
 }
 
 .box-red {
-  @extend %box;
-  background-color: $red;
+  @include box($red);
 }
 .box-blue {
-  @extend %box;
-  background-color: $blue;
+  @include box($blue);
 }
 
 .box-orange {
-  @extend %box;
-  background-color: $orange;
+  @include box($orange);
 }
 .box-purple {
-  @extend %box;
-  background-color: $purple;
+  @include box($purple);
 }
 
 .container {

@@ -1,23 +1,28 @@
-.box-purple, .box-orange, .box-blue, .box-red {
+.box-red {
   font-size: 24px;
   width: 150px;
   height: 150px;
-  padding: 20px;
-}
-
-.box-red {
   background-color: #ff4949;
 }
 
 .box-blue {
+  font-size: 24px;
+  width: 150px;
+  height: 150px;
   background-color: #025dcb;
 }
 
 .box-orange {
+  font-size: 24px;
+  width: 150px;
+  height: 150px;
   background-color: #ffc935;
 }
 
 .box-purple {
+  font-size: 24px;
+  width: 150px;
+  height: 150px;
   background-color: #df3df4;
 }
 
