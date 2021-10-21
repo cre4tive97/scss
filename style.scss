@@ -1,3 +1,5 @@
+@use "_reset.scss";
+
 $orange: #ffc935;
 $blue: #025dcb;
 $red: #ff4949;
@@ -59,4 +61,6 @@ $large: 24px;
   //     width: 150px;
   //     height: 150px;
   //   }
+  background-color: reset.$main-color;
+  padding: $large;
 }
