@@ -1,3 +1,27 @@
-.box {
+.box-purple, .box-orange, .box-blue, .box-red {
+  font-size: 24px;
+  width: 150px;
+  height: 150px;
+  padding: 20px;
+}
+
+.box-red {
+  background-color: #ff4949;
+}
+
+.box-blue {
+  background-color: #025dcb;
+}
+
+.box-orange {
+  background-color: #ffc935;
+}
+
+.box-purple {
+  background-color: #df3df4;
+}
+
+.container {
   display: flex;
+  justify-content: space-around;
 }/*# sourceMappingURL=style.css.map */
